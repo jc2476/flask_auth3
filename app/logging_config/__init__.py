@@ -44,7 +44,7 @@ def configure_logging():
     log.info("THis broke")
     log = logging.getLogger("myDebugs")
     log.info("Debug logger")
-    log = logging.getLogger("myRequest")
+    log = logging.getLogger("myRequests")
     log.info("Request logger")
 
 
@@ -77,7 +77,7 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
-        'file.handler.myapp': {
+        'file.handler.myApp': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
             'filename': 'app/logs/myapp.log',
@@ -119,6 +119,13 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
+        'file.handler.myRequests': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'RequestFormatter',
+            'filename': 'app/logs/requests.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+
     },
     'loggers': {
         '': {  # root logger
@@ -153,6 +160,11 @@ LOGGING_CONFIG = {
         },
         'myDebugs': {  # if __name__ == '__main__'
             'handlers': ['file.handler.debug'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'myRequests': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.requests'],
             'level': 'DEBUG',
             'propagate': False
         },
