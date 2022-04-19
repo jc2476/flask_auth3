@@ -1,0 +1,31 @@
+2022-04-19 20:08:56,613 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:08:56] "GET /about HTTP/1.1" 200 -
+2022-04-19 20:08:57,759 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:08:57] "GET / HTTP/1.1" 200 -
+2022-04-19 20:08:58,562 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:08:58] "GET /welcome HTTP/1.1" 200 -
+2022-04-19 20:17:13,984 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/log_test.py', reloading
+2022-04-19 20:21:43,977 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:21:43] "GET /welcome HTTP/1.1" 200 -
+2022-04-19 20:21:44,760 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:21:44] "GET /about HTTP/1.1" 200 -
+2022-04-19 20:21:45,508 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:21:45] "GET / HTTP/1.1" 200 -
+2022-04-19 20:21:46,246 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:21:46] "GET /about HTTP/1.1" 200 -
+2022-04-19 20:21:48,183 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:21:48] "GET /about HTTP/1.1" 200 -
+2022-04-19 20:21:48,365 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 20:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-19 23:28:58,574 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+[2022-04-19 23:29:01,301] [84] 127.0.0.1 requested http://localhost/INFO in __init__: Debug file
+[2022-04-19 23:29:01,481] [84] 127.0.0.1 requested http://localhost/dashboardINFO in __init__: Debug file
+[2022-04-19 23:29:01,745] [84] 127.0.0.1 requested http://localhost/INFO in __init__: Debug file
+[2022-04-19 23:29:01,932] [84] 127.0.0.1 requested http://localhost/INFO in __init__: Debug file
+[2022-04-19 23:29:02,107] [84] 127.0.0.1 requested http://localhost/INFO in __init__: Debug file
+[2022-04-19 23:29:02,281] [84] 127.0.0.1 requested http://localhost/INFO in __init__: Debug file
+[2022-04-19 23:29:02,453] [84] 127.0.0.1 requested http://localhost/INFO in __init__: Debug file
+[2022-04-19 23:29:02,636] [84] 127.0.0.1 requested http://localhost/aboutINFO in __init__: Debug file
+[2022-04-19 23:29:02,806] [84] 127.0.0.1 requested http://localhost/welcomeINFO in __init__: Debug file
+[2022-04-19 23:29:02,993] [84] 127.0.0.1 requested http://localhost/page5INFO in __init__: Debug file
+[2022-04-19 23:30:55,923] [80] 172.22.0.1 requested http://localhost/INFO in __init__: Debug file
+2022-04-19 23:30:56,082 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:30:56] "GET / HTTP/1.1" 200 -
+2022-04-19 23:30:56,774 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:30:56] "GET /welcome HTTP/1.1" 200 -
+2022-04-19 23:30:57,945 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:30:57] "GET /welcome HTTP/1.1" 200 -
+2022-04-19 23:37:09,046 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-19 23:51:13,746 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:51:13] "[35m[1mGET /about HTTP/1.1[0m" 500 -
+2022-04-19 23:51:13,766 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:51:13] "[36mGET /about?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-19 23:51:13,767 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:51:13] "[36mGET /about?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-19 23:51:13,834 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:51:13] "[36mGET /about?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-19 23:51:13,870 [INFO] werkzeug: 172.22.0.1 - - [19/Apr/2022 23:51:13] "[36mGET /about?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
