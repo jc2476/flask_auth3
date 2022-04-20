@@ -28,10 +28,6 @@ def after_request_logging(response):
 
     log = logging.getLogger("myApp")
     log.info("My App Logger")
-    log = logging.getLogger("myDebugs")
-    log.info("My Debug Logger")
-    log = logging.getLogger("myRequest")
-    log.info("My Request Logger")
     return response
 
 
@@ -40,12 +36,10 @@ def configure_logging():
     logging.config.dictConfig(LOGGING_CONFIG)
     log = logging.getLogger("myApp")
     log.info("My App Logger")
-    log = logging.getLogger("myErrors")
+    log = logging.getLogger("myerrors")
     log.info("THis broke")
-    log = logging.getLogger("myDebugs")
-    log.info("Debug logger")
-    log = logging.getLogger("myRequests")
-    log.info("Request logger")
+    log = logging.getLogger("myrequests")
+    log.info("Log requests")
 
 
 
@@ -77,7 +71,7 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
-        'file.handler.myApp': {
+        'file.handler.myapp': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
             'filename': 'app/logs/myapp.log',
@@ -112,20 +106,13 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
-        'file.handler.myDebugs': {
+        'file.handler.requests': {
             'class': 'logging.handlers.RotatingFileHandler',
-            'formatter': 'RequestFormatter',
-            'filename': 'app/logs/debug.log',
-            'maxBytes': 10000000,
-            'backupCount': 5,
-        },
-        'file.handler.myRequests': {
-            'class': 'logging.handlers.RotatingFileHandler',
-            'formatter': 'RequestFormatter',
+            'formatter': 'standard',
             'filename': 'app/logs/requests.log',
             'maxBytes': 10000000,
             'backupCount': 5,
-
+        },
     },
     'loggers': {
         '': {  # root logger
@@ -149,21 +136,16 @@ LOGGING_CONFIG = {
             'propagate': False
         },
         'myApp': {  # if __name__ == '__main__'
-            'handlers': ['file.handler.myApp'],
+            'handlers': ['file.handler.myapp'],
             'level': 'DEBUG',
             'propagate': False
         },
-        'myErrors': {  # if __name__ == '__main__'
+        'myerrors': {  # if __name__ == '__main__'
             'handlers': ['file.handler.errors'],
             'level': 'DEBUG',
             'propagate': False
         },
-        'myDebugs': {  # if __name__ == '__main__'
-            'handlers': ['file.handler.debug'],
-            'level': 'DEBUG',
-            'propagate': False
-        },
-        'myRequests': {  # if __name__ == '__main__'
+        'myrequests': {  # if __name__ == '__main__'
             'handlers': ['file.handler.requests'],
             'level': 'DEBUG',
             'propagate': False

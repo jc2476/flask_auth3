@@ -1,3 +1,9 @@
+[2022-04-19 23:59:09,832] 172.22.0.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-19 23:59:12,208] 172.22.0.1 requested http://localhost/about
+INFO in __init__: this is the plain message
+[2022-04-19 23:59:14,175] 172.22.0.1 requested http://localhost/
+INFO in __init__: this is the plain message
 [2022-04-19 20:06:46,947] 127.0.0.1 requested http://localhost/
 INFO in __init__: this is the plain message
 [2022-04-19 20:06:46,964] 127.0.0.1 requested http://localhost/dashboard
