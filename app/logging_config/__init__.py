@@ -13,11 +13,11 @@ log_con = flask.Blueprint('log_con', __name__)
 def before_request_logging():
     current_app.logger.info("Before Request")
     log = logging.getLogger("myApp")
-    log.info("My App Logger")
+    log.info("Before request My App Logger")
     log = logging.getLogger("myrequests")
-    log.info("My request Logger")
+    log.info("Before request Logger")
     log = logging.getLogger("mydebugs")
-    log.info("My debug Logger")
+    log.info("Before request debug Logger")
 
 
 @log_con.after_app_request
@@ -31,11 +31,13 @@ def after_request_logging(response):
     current_app.logger.info("After Request")
 
     log = logging.getLogger("myApp")
-    log.info("My App Logger")
+    log.info("After App Request My App Logger")
     log = logging.getLogger("myrequests")
-    log.info("After request logger")
+    log.info("After app request logger")
     log = logging.getLogger("mydebugs")
-    log.info("After request debug logger")
+    log.info("After app request debug logger")
+    log = logging.getLogger("myerrors")
+    log.info("After app request error logger")
     return response
 
 
@@ -45,11 +47,11 @@ def configure_logging():
     log = logging.getLogger("myApp")
     log.info("My App Logger")
     log = logging.getLogger("myerrors")
-    log.info("ERROR")
+    log.info("Error logger")
     log = logging.getLogger("myrequests")
-    log.info("Before app first request logger")
+    log.info("Request logger")
     log = logging.getLogger("mydebugs")
-    log.info("Before app first request debug logger")
+    log.info("Debug logger")
 
 
 

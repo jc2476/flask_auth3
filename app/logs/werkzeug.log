@@ -180,3 +180,7 @@
 2022-04-20 00:23:08,331 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 00:23:08] "GET /login HTTP/1.1" 200 -
 2022-04-20 00:23:10,213 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 00:23:10] "GET /about HTTP/1.1" 200 -
 2022-04-20 00:24:21,593 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/context_process_test.py', reloading
+2022-04-20 02:03:18,945 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 02:03:18] "GET / HTTP/1.1" 200 -
+2022-04-20 02:03:20,232 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 02:03:20] "GET /about HTTP/1.1" 200 -
+2022-04-20 02:03:20,999 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 02:03:20] "GET /welcome HTTP/1.1" 200 -
+2022-04-20 02:14:51,754 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/log_test.py', reloading
