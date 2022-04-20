@@ -75,3 +75,24 @@
 2022-04-20 00:47:10,187 [INFO] myrequests: Before app first request logger
 2022-04-20 00:47:10,188 [INFO] myrequests: My request Logger
 2022-04-20 00:47:10,322 [INFO] myrequests: After request logger
+2022-04-20 16:28:50,944 [INFO] myrequests: Before app first request logger
+2022-04-20 16:28:50,945 [INFO] myrequests: My request Logger
+2022-04-20 16:28:51,100 [INFO] myrequests: After request logger
+2022-04-20 16:29:02,678 [INFO] myrequests: My request Logger
+2022-04-20 16:29:02,927 [INFO] myrequests: After request logger
+2022-04-20 16:29:02,934 [INFO] myrequests: My request Logger
+2022-04-20 16:29:02,951 [INFO] myrequests: After request logger
+2022-04-20 16:30:50,311 [INFO] myrequests: My request Logger
+2022-04-20 16:30:50,323 [INFO] myrequests: After request logger
+2022-04-20 16:31:01,638 [INFO] myrequests: My request Logger
+2022-04-20 16:31:01,844 [INFO] myrequests: After request logger
+2022-04-20 16:31:01,854 [INFO] myrequests: My request Logger
+2022-04-20 16:31:01,861 [INFO] myrequests: After request logger
+2022-04-20 16:35:46,807 [INFO] myrequests: My request Logger
+2022-04-20 16:35:46,817 [INFO] myrequests: After request logger
+2022-04-20 16:35:50,205 [INFO] myrequests: My request Logger
+2022-04-20 16:35:50,213 [INFO] myrequests: After request logger
+2022-04-20 16:35:59,537 [INFO] myrequests: My request Logger
+2022-04-20 16:35:59,752 [INFO] myrequests: After request logger
+2022-04-20 16:35:59,759 [INFO] myrequests: My request Logger
+2022-04-20 16:35:59,767 [INFO] myrequests: After request logger

@@ -180,3 +180,13 @@
 2022-04-20 00:23:08,331 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 00:23:08] "GET /login HTTP/1.1" 200 -
 2022-04-20 00:23:10,213 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 00:23:10] "GET /about HTTP/1.1" 200 -
 2022-04-20 00:24:21,593 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/context_process_test.py', reloading
+2022-04-20 16:28:51,102 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:28:51] "GET /register HTTP/1.1" 200 -
+2022-04-20 16:29:02,928 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:29:02] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-20 16:29:02,952 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:29:02] "GET /login HTTP/1.1" 200 -
+2022-04-20 16:30:50,324 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:30:50] "GET /register HTTP/1.1" 200 -
+2022-04-20 16:31:01,848 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:31:01] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-20 16:31:01,862 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:31:01] "GET /login HTTP/1.1" 200 -
+2022-04-20 16:35:46,819 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:35:46] "GET /login HTTP/1.1" 200 -
+2022-04-20 16:35:50,214 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:35:50] "GET /register HTTP/1.1" 200 -
+2022-04-20 16:35:59,754 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:35:59] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-20 16:35:59,769 [INFO] werkzeug: 172.22.0.1 - - [20/Apr/2022 16:35:59] "GET /login HTTP/1.1" 200 -
