@@ -1,27 +1,20 @@
-"""This makes the test configuration setup"""
-# pylint: disable=redefined-outer-name
-import os
-import pytest
-from app import create_app
-
-@pytest.fixture()
-def application():
-    """This makes the app"""
-
-    application = create_app()
-    application.config.update({
-        "TESTING": True,
-    })
-    yield application
+import logging
+from flask import has_request_context, request
 
 
-@pytest.fixture()
-def client(application):
-    """This makes the http client"""
-    return application.test_client()
+class RequestFormatter(logging.Formatter):
+    def format(self, record):
+        if has_request_context():
+            record.url = request.url
+            record.remote_addr = request.remote_addr
+            record.request_method = request.method
+            record.request_path = request.path
+            record.ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+            record.host = request.host.split(':', 1)[0]
+            record.args = dict(request.args)
 
+        else:
+            record.url = None
+            record.remote_addr = None
 
-@pytest.fixture()
-def runner(application):
-    """This makes the task runner"""
-    return application.test_cli_runner()
+        return super().format(record)
