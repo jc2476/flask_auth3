@@ -33,9 +33,9 @@ def after_request_logging(response):
     log = logging.getLogger("myApp")
     log.info("My App Logger")
     log = logging.getLogger("myrequests")
-    log.info("My request Logger")
+    log.info("After request logger")
     log = logging.getLogger("mydebugs")
-    log.info("My debug Logger")
+    log.info("After request debug logger")
     return response
 
 
@@ -45,11 +45,11 @@ def configure_logging():
     log = logging.getLogger("myApp")
     log.info("My App Logger")
     log = logging.getLogger("myerrors")
-    log.info("THis broke")
+    log.info("ERROR")
     log = logging.getLogger("myrequests")
-    log.info("Log requests")
+    log.info("Before app first request logger")
     log = logging.getLogger("mydebugs")
-    log.info("Log debugs")
+    log.info("Before app first request debug logger")
 
 
 
