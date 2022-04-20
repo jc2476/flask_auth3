@@ -5,5 +5,5 @@ logdir = os.path.join(root, '../app/logs')
 
 def debug_log_test():
     assert os.path.exists(logdir) is True
-    logfile = os.path.join(root, '../app/logs/debug.log')
+    logfile = os.path.join(root, '../app/logs/debugs.log')
     assert os.path.exists(logfile) is True

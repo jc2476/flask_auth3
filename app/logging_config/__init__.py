@@ -14,6 +14,10 @@ def before_request_logging():
     current_app.logger.info("Before Request")
     log = logging.getLogger("myApp")
     log.info("My App Logger")
+    log = logging.getLogger("myrequests")
+    log.info("My request Logger")
+    log = logging.getLogger("mydebugs")
+    log.info("My debug Logger")
 
 
 @log_con.after_app_request
@@ -28,6 +32,10 @@ def after_request_logging(response):
 
     log = logging.getLogger("myApp")
     log.info("My App Logger")
+    log = logging.getLogger("myrequests")
+    log.info("My request Logger")
+    log = logging.getLogger("mydebugs")
+    log.info("My debug Logger")
     return response
 
 
@@ -40,6 +48,8 @@ def configure_logging():
     log.info("THis broke")
     log = logging.getLogger("myrequests")
     log.info("Log requests")
+    log = logging.getLogger("mydebugs")
+    log.info("Log debugs")
 
 
 
@@ -113,6 +123,13 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
+        'file.handler.debugs': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/debugs.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
     },
     'loggers': {
         '': {  # root logger
@@ -147,6 +164,11 @@ LOGGING_CONFIG = {
         },
         'myrequests': {  # if __name__ == '__main__'
             'handlers': ['file.handler.requests'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'mydebugs': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.debugs'],
             'level': 'DEBUG',
             'propagate': False
         },
