@@ -322,3 +322,180 @@
 2022-04-20 00:47:10,186 [INFO] myApp: My App Logger
 2022-04-20 00:47:10,187 [INFO] myApp: My App Logger
 2022-04-20 00:47:10,322 [INFO] myApp: My App Logger
+2022-04-20 02:03:18,774 [INFO] myApp: My App Logger
+2022-04-20 02:03:18,776 [INFO] myApp: Before request My App Logger
+2022-04-20 02:03:18,942 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:03:20,212 [INFO] myApp: Before request My App Logger
+2022-04-20 02:03:20,230 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:03:20,982 [INFO] myApp: Before request My App Logger
+2022-04-20 02:03:20,997 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:55,074 [INFO] myApp: My App Logger
+2022-04-20 02:14:55,076 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:55,220 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:55,259 [INFO] myApp: My App Logger
+2022-04-20 02:14:55,260 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:55,262 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:55,265 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:55,430 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:55,435 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:55,452 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:55,561 [INFO] myApp: My App Logger
+2022-04-20 02:14:55,563 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:55,705 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:55,747 [INFO] myApp: My App Logger
+2022-04-20 02:14:55,749 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:55,893 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:55,925 [INFO] myApp: My App Logger
+2022-04-20 02:14:55,927 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:56,075 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:56,255 [INFO] myApp: My App Logger
+2022-04-20 02:14:56,257 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:56,400 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:56,438 [INFO] myApp: My App Logger
+2022-04-20 02:14:56,439 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:56,579 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:56,614 [INFO] myApp: My App Logger
+2022-04-20 02:14:56,615 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:56,753 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:56,787 [INFO] myApp: My App Logger
+2022-04-20 02:14:56,789 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:56,926 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:14:56,963 [INFO] myApp: My App Logger
+2022-04-20 02:14:56,965 [INFO] myApp: Before request My App Logger
+2022-04-20 02:14:57,101 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:07,262 [INFO] myApp: My App Logger
+2022-04-20 02:17:07,263 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:07,406 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:07,439 [INFO] myApp: My App Logger
+2022-04-20 02:17:07,441 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:07,443 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:07,446 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:07,588 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:07,591 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:07,606 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:07,707 [INFO] myApp: My App Logger
+2022-04-20 02:17:07,709 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:07,848 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:07,881 [INFO] myApp: My App Logger
+2022-04-20 02:17:07,882 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:08,021 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:08,055 [INFO] myApp: My App Logger
+2022-04-20 02:17:08,057 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:08,197 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:08,253 [INFO] myApp: My App Logger
+2022-04-20 02:17:08,255 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:08,452 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:08,482 [INFO] myApp: My App Logger
+2022-04-20 02:17:08,483 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:08,624 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:08,664 [INFO] myApp: My App Logger
+2022-04-20 02:17:08,666 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:08,805 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:08,838 [INFO] myApp: My App Logger
+2022-04-20 02:17:08,839 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:08,977 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:17:09,011 [INFO] myApp: My App Logger
+2022-04-20 02:17:09,013 [INFO] myApp: Before request My App Logger
+2022-04-20 02:17:09,153 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:17,572 [INFO] myApp: My App Logger
+2022-04-20 02:21:17,574 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:17,718 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:17,757 [INFO] myApp: My App Logger
+2022-04-20 02:21:17,759 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:17,761 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:17,764 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:17,904 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:17,907 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:17,921 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:18,024 [INFO] myApp: My App Logger
+2022-04-20 02:21:18,026 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:18,181 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:18,213 [INFO] myApp: My App Logger
+2022-04-20 02:21:18,215 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:18,369 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:18,401 [INFO] myApp: My App Logger
+2022-04-20 02:21:18,402 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:18,546 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:18,767 [INFO] myApp: My App Logger
+2022-04-20 02:21:18,769 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:18,910 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:18,947 [INFO] myApp: My App Logger
+2022-04-20 02:21:18,948 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:19,087 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:19,123 [INFO] myApp: My App Logger
+2022-04-20 02:21:19,125 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:19,263 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:19,295 [INFO] myApp: My App Logger
+2022-04-20 02:21:19,297 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:19,443 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:19,481 [INFO] myApp: My App Logger
+2022-04-20 02:21:19,483 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:19,629 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:52,121 [INFO] myApp: My App Logger
+2022-04-20 02:21:52,122 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:52,278 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:52,311 [INFO] myApp: My App Logger
+2022-04-20 02:21:52,312 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:52,314 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:52,317 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:52,458 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:52,461 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:52,475 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:52,616 [INFO] myApp: My App Logger
+2022-04-20 02:21:52,617 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:52,757 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:52,790 [INFO] myApp: My App Logger
+2022-04-20 02:21:52,792 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:52,934 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:52,975 [INFO] myApp: My App Logger
+2022-04-20 02:21:52,976 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:53,125 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:53,215 [INFO] myApp: My App Logger
+2022-04-20 02:21:53,217 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:53,366 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:53,402 [INFO] myApp: My App Logger
+2022-04-20 02:21:53,404 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:53,549 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:53,583 [INFO] myApp: My App Logger
+2022-04-20 02:21:53,585 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:53,723 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:53,755 [INFO] myApp: My App Logger
+2022-04-20 02:21:53,757 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:53,897 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:21:53,936 [INFO] myApp: My App Logger
+2022-04-20 02:21:53,937 [INFO] myApp: Before request My App Logger
+2022-04-20 02:21:54,074 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:03,439 [INFO] myApp: My App Logger
+2022-04-20 02:22:03,441 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:03,682 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:03,725 [INFO] myApp: My App Logger
+2022-04-20 02:22:03,728 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:03,730 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:03,734 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:03,961 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:03,965 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:03,984 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:04,123 [INFO] myApp: My App Logger
+2022-04-20 02:22:04,125 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:04,362 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:04,403 [INFO] myApp: My App Logger
+2022-04-20 02:22:04,405 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:04,633 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:04,672 [INFO] myApp: My App Logger
+2022-04-20 02:22:04,674 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:04,899 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:04,973 [INFO] myApp: My App Logger
+2022-04-20 02:22:04,975 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:05,201 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:05,256 [INFO] myApp: My App Logger
+2022-04-20 02:22:05,258 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:05,498 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:05,540 [INFO] myApp: My App Logger
+2022-04-20 02:22:05,542 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:05,766 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:05,807 [INFO] myApp: My App Logger
+2022-04-20 02:22:05,809 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:06,033 [INFO] myApp: After App Request My App Logger
+2022-04-20 02:22:06,075 [INFO] myApp: My App Logger
+2022-04-20 02:22:06,077 [INFO] myApp: Before request My App Logger
+2022-04-20 02:22:06,305 [INFO] myApp: After App Request My App Logger
