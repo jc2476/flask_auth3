@@ -1,4 +1,5 @@
 import datetime
+import os
 from os import getenv
 
 def test_context_variables_environment(client):
@@ -28,3 +29,11 @@ def test_context_currency_format(client):
     content = bytes(test_string, 'utf-8')
     assert response.status_code == 200
     assert content in response.data
+
+root = os.path.dirname(os.path.abspath(__file__))
+logdir = os.path.join(root, '../app/logs')
+
+def debug_log_test():
+    assert os.path.exists(logdir) is True
+    logfile = os.path.join(root, '../app/logs/debugs.log')
+    assert os.path.exists(logfile) is True

@@ -1,0 +1,75 @@
+2022-04-20 00:23:05,605 [INFO] mydebugs: Log debugs
+2022-04-20 00:23:05,607 [INFO] mydebugs: My debug Logger
+2022-04-20 00:23:05,760 [INFO] mydebugs: My debug Logger
+2022-04-20 00:23:08,315 [INFO] mydebugs: My debug Logger
+2022-04-20 00:23:08,330 [INFO] mydebugs: My debug Logger
+2022-04-20 00:23:10,201 [INFO] mydebugs: My debug Logger
+2022-04-20 00:23:10,212 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,507 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:46,508 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,654 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,703 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:46,705 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,707 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,709 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,869 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,872 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,885 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:46,987 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:46,988 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,132 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,164 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:47,165 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,328 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,359 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:47,360 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,501 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,540 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:47,542 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,684 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,718 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:47,719 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,861 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:47,892 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:47,894 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:48,040 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:48,080 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:48,081 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:48,219 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:48,253 [INFO] mydebugs: Log debugs
+2022-04-20 00:24:48,254 [INFO] mydebugs: My debug Logger
+2022-04-20 00:24:48,400 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:08,438 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:08,439 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:08,580 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:08,618 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:08,619 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:08,620 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:08,623 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:08,778 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:08,781 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:08,794 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:08,909 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:08,910 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:09,049 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:09,090 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:09,091 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:09,261 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:09,309 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:09,310 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:09,460 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:09,494 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:09,495 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:09,632 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:09,669 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:09,670 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:09,809 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:09,845 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:09,846 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:09,982 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:10,013 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:10,014 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:10,152 [INFO] mydebugs: After request debug logger
+2022-04-20 00:47:10,187 [INFO] mydebugs: Before app first request debug logger
+2022-04-20 00:47:10,188 [INFO] mydebugs: My debug Logger
+2022-04-20 00:47:10,323 [INFO] mydebugs: After request debug logger
