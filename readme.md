@@ -28,6 +28,7 @@ app/dyno.
 6. In your newly created Github repository, add new repository secrets for DOCKER_USERNAME, DOCKER_PASSWORD, HEROKU_API_KEY (Values are DOCKER_USERNAME: your docker hub username; DOCKER_PASSWORD: your docker hub password; HEROKU_API_KEY: API key from the heroku app)
 
 ### GitHub Notes:  Set the action secrets repository in: -> settings -> actions -> secrets
+
 ### Heroku Notes: Get the heroku API key from account in: -> applications -> create authorization button
 
 #### Change GitHub Actions Workflows for Dev and Prod
