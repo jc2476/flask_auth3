@@ -11,9 +11,9 @@ from app import config
 log_con = flask.Blueprint('log_con', __name__)
 
 
+
 #@log_con.before_app_request
 #def before_request_logging():
-
 
 
 @log_con.after_app_request
@@ -24,11 +24,11 @@ def after_request_logging(response):
         return response
     elif request.path.startswith('/bootstrap'):
         return response
-    return response
+
 
 @log_con.before_app_first_request
-def setup_logs():
 
+def setup_logs():
     # set the name of the apps log folder to logs
     logdir = config.Config.LOG_DIR
     # make a directory if it doesn't exist
@@ -96,6 +96,20 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
+        'file.handler.requests': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/requests.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+        'file.handler.debugs': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/debugs.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
     },
     'loggers': {
         '': {  # root logger
@@ -125,6 +139,16 @@ LOGGING_CONFIG = {
         },
         'myerrors': {  # if __name__ == '__main__'
             'handlers': ['file.handler.errors'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'myrequests': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.requests'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'mydebugs': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.debugs'],
             'level': 'DEBUG',
             'propagate': False
         },

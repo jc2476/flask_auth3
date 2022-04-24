@@ -1,3 +1,94 @@
 body {
 font-size: 200%;
 }
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: contain;
+}
+.list-group{
+    max-height: 350px;
+    margin-bottom: 5px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 600px;
+}
+.scrollclass {
+  height:350px;
+  overflow-y: scroll;
+}
+
+
+#topheader .navbar-nav li > a {
+    text-transform: capitalize;
+    color: #333;
+    transition: background-color .2s, color .2s;}
+{   :hover,
+	:focus
+        background-color: #333;
+        color: #fff;
+    }
+
+#topheader .navbar-nav li.active > a {
+	background-color: #333;
+	color: #fff;
+}
+.active {
+     color: ghostwhite !important;
+    background-color: dimgray;
+    border-radius: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* Solid border */
+hr.solid {
+  border-top: 7px solid #bbb;
+}
+#zoomA {
+  /* (A) OPTIONAL DIMENSIONS */
+  width: 600px;
+  height: auto;
+
+  /* (B) ANIMATE ZOOM */
+  /* ease | ease-in | ease-out | linear */
+  transition: transform ease-in-out 0.3s;
+}
+.row1{
+
+    text-align:center;
+    margin:0 auto;
+
+}
+
+/* (C) ZOOM ON HOVER */
+#zoomA:hover { transform: scale(2); }
+
+#zoomB {
+  /* (A) OPTIONAL DIMENSIONS */
+  width: 600px;
+  height: auto;
+
+  /* (B) ANIMATE ZOOM */
+  /* ease | ease-in | ease-out | linear */
+  transition: transform ease-in-out 0.3s;
+}
+/* (C) ZOOM ON HOVER */
+#zoomB:hover { transform: scale(1.6); }
+
+#zoomC {
+  /* (A) OPTIONAL DIMENSIONS */
+  width: 600px;
+  height: auto;
+
+  /* (B) ANIMATE ZOOM */
+  /* ease | ease-in | ease-out | linear */
+  transition: transform ease-in-out 0.3s;
+}
+/* (C) ZOOM ON HOVER */
+#zoomC:hover { transform: scale(4.0); }

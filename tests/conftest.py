@@ -1,6 +1,5 @@
 """This makes the test configuration setup"""
 # pylint: disable=redefined-outer-name
-import logging
 import os
 
 import pytest
@@ -13,6 +12,7 @@ from app.db import db
 @pytest.fixture()
 def application():
     """This makes the app"""
+
     #you need this one if you want to see whats in the database
     #os.environ['FLASK_ENV'] = 'development'
     #you need to run it in testing to pass on github
@@ -20,12 +20,14 @@ def application():
 
     application = create_app()
 
+
     with application.app_context():
         db.create_all()
         yield application
         db.session.remove()
         #drops the database tables after the test runs
         #db.drop_all()
+
 
 @pytest.fixture()
 def add_user(application):
